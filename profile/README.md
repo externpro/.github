@@ -15,22 +15,22 @@ Reproducible builds. Reusable dependencies. Consistent CI. Fewer “works on my 
 
 externpro standardizes **toolchains**, **dependencies**, and **CI workflows** across developers, machines, and repositories—so teams ship faster with less drift and duplication.
 
-## Core repos 📌
+## Main repos 📌
 
-1. **[externpro](https://github.com/externpro/externpro) (core)**
+1. **[externpro](https://github.com/externpro/externpro) (core)** 🧰
    CMake build platform + dependency provider model + reusable workflows (`xpinit`, `xpupdate`, `xpbuild`, `xptag`, `xprelease`).
 
 2. **[buildpro](https://github.com/externpro/buildpro) (Linux toolchain images)** 🐳
    Linux Docker build images used by externpro-enabled repos to keep compilers/tools/system deps consistent.
 
-3. **[tutorial](https://github.com/externpro/tutorial) (adoption walkthrough)** 🧭
+3. **[tutorial](https://github.com/externpro/tutorial) (adoption walkthrough)** 🎓
    Vendor externpro as a `.devcontainer` submodule, run `xpInit`, follow `xpTag → xpBuild → xpRelease`, and consume externpro-produced deps via `find_package()`.
 
 ## Start here 🚀
 
-1. Read the core overview in [externpro](https://github.com/externpro/externpro#readme)
-2. Review the foundational patterns in [buildpro](https://github.com/externpro/buildpro#readme)
-3. Follow the step-by-step integration in [tutorial](https://github.com/externpro/tutorial#readme)
+1. Add externpro as a submodule to your project — the [tutorial](https://github.com/externpro/tutorial#readme) walks through the exact steps
+2. Read the core overview in [externpro](https://github.com/externpro/externpro#readme)
+3. Review the foundational patterns in [buildpro](https://github.com/externpro/buildpro#readme)
 4. Use other org repos as reference implementations
 
 ## What you get ✅
