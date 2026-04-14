@@ -29,9 +29,12 @@ externpro standardizes **toolchains**, **dependencies**, and **CI workflows** ac
 ## Start here 🚀
 
 1. Add externpro as a submodule to your project — the [tutorial](https://github.com/externpro/tutorial#readme) walks through the exact steps
-2. Read the core overview in [externpro](https://github.com/externpro/externpro#readme)
-3. Review the foundational patterns in [buildpro](https://github.com/externpro/buildpro#readme)
-4. Use other org repos as reference implementations
+1. Run a CI workflow to intialize things
+1. Make small modifications to existing CMake (or introduce CMake)
+1. Use other org repos as reference implementations (see the externpro projects table: https://github.com/externpro/externpro/blob/main/cmake/README.md)
+1. Start building and delivering your projects on multiple OSes, architectures, and compilers - creating packages that can be consumed by other projects quickly and consistently!
+1. Read the core overview in [externpro](https://github.com/externpro/externpro#readme)
+1. Review the foundational patterns in [buildpro](https://github.com/externpro/buildpro#readme)
 
 ## What you get ✅
 
