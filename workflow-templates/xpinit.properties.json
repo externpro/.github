@@ -1,0 +1,13 @@
+{
+  "name": "externpro: xpInit",
+  "description": "Bootstrap a repo to use externpro (initialize presets + workflows + repo wiring).",
+  "iconName": "octicon rocket",
+  "categories": ["CI", "CMake"],
+  "filePatterns": [
+    "^CMakeLists\\.txt$",
+    "^CMakePresets\\.json$",
+    "^CMakePresetsBase\\.json$",
+    "^docker-compose\\.yml$",
+    "^docker-compose\\.sh$"
+  ]
+}

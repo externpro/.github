@@ -1,0 +1,12 @@
+{
+  "name": "externpro: xpUpdate",
+  "description": "Update an externpro-enabled repo (refresh the vendored templates and workflows).",
+  "iconName": "octicon gear",
+  "categories": ["CI", "CMake"],
+  "filePatterns": [
+    "^CMakePresets\\.json$",
+    "^CMakePresetsBase\\.json$",
+    "^docker-compose\\.yml$",
+    "^docker-compose\\.sh$"
+  ]
+}
